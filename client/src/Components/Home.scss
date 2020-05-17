@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
+  }
+.details{
+    
+    margin-top: 5%;
+    //text-align: center;
+
+    .main-title{
+        font-family: din-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 75px;
+
+    }
+
+    .sub-title{
+        font-family: din-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        .love-icon{
+            font-size: 45px;
+            color: red;
+            margin-bottom: 1px;
+        }
+        .code-icon{
+            font-size: 45px;
+        }
+
+    }
+
+    .say-hello-btn{
+        background: #ECE9E6;
+    }
+    
+    
+
+    .linkedIn-icon{
+        padding-top: 10px;
+        width: 40px;
+        height: 40px;
+        color: #0e76a8
+    }
+    .facebook-icon{
+        width: 40px;
+        height: 40px;
+        color: #3b5998
+    }
+
+}
+
+
+.main-img{
+    display: block;
+    border-radius: 50%;
+    width: 30%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+}
+.main-img:hover {
+    filter: grayscale(80%);
+  }
+
+ 
