@@ -39,7 +39,7 @@ export default function FormDialog() {
   
   return (
     <div>
-      <Button className="say-hello-btn" variant="outlined" onClick={handleClickOpen}>
+      <Button className="say-hello-btn" variant="outlined" size="small" onClick={handleClickOpen}>
         say hello
       </Button>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">

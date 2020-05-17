@@ -16,9 +16,9 @@ function Home(props) {
 
 
     return (
-        <div>
+        <div className="home">
             <div className="details">
-                <div className="main-title">Hi, I'm Batel!</div>
+                <div className="main-title">Hi, I'm <span>Batel</span>!</div>
                 <div className="sub-title">Frontend developer.</div>
                 <div className="sub-title"><FavoriteIcon className="love-icon"/> <CodeSharpIcon className="code-icon"/>.</div>
                 <div className="sub-title">Make things done.</div>
@@ -27,10 +27,7 @@ function Home(props) {
                 <a href="https://www.linkedin.com/in/batel-shafir/" target="_blank"><LinkedInIcon className="linkedIn-icon"/></a>
                 <a href="https://www.facebook.com/bshafir" target="_blank"><FacebookIcon className="facebook-icon"/></a>
             </div>
-            <image src="">Hi</image>
-
-                
-        
+            <img className="main-img" src={mainImage}></img> 
         </div>
     );
     }

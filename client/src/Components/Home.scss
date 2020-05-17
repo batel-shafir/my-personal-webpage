@@ -1,20 +1,30 @@
 html, body {
     height: 100%;
     background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
-  }
-.details{
-    
-    margin-top: 5%;
-    //text-align: center;
 
+    font-family: 'Anton', sans-serif;
+ 
+  }
+
+.home{
+    padding: 0% 20%;
+    width: 80%
+}
+
+
+.details{ 
+    display: inline-block;    
+    padding: 2%; 
     .main-title{
         font-family: din-condensed, sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 75px;
-
+        span {
+            color: #147c80;
+        }
+        
     }
-
     .sub-title{
         font-family: din-condensed, sans-serif;
         font-style: normal;
@@ -22,7 +32,7 @@ html, body {
         font-size: 45px;
         .love-icon{
             font-size: 45px;
-            color: red;
+            color: #bc0710;
             margin-bottom: 1px;
         }
         .code-icon{
@@ -35,8 +45,6 @@ html, body {
         background: #ECE9E6;
     }
     
-    
-
     .linkedIn-icon{
         padding-top: 10px;
         width: 40px;
@@ -49,20 +57,50 @@ html, body {
         color: #3b5998
     }
 
+    
+}
+
+@media (max-width: 768px) {
+
+    .home{
+        display: block;    
+        padding: 0;
+        width: 100%; 
+    }
+    .details{ 
+        padding: 0;
+        .main-title{
+            font-family: din-condensed, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+        }
+
+        .sub-title {
+            font-size: 30px;  
+            .love-icon{
+                font-size: 30px;
+            }
+            .code-icon{
+                font-size: 30px;
+            }
+        }
+        .say-hello-btn{
+            margin-top: 10px;    
+        }
+    }
+   
 }
 
 
 .main-img{
-    display: block;
     border-radius: 50%;
-    width: 30%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float:right;
+    width: 33%;
+    display: inline-block;    
+    padding: 2%; 
 }
 .main-img:hover {
     filter: grayscale(80%);
   }
 
- 
+  
