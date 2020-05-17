@@ -20,7 +20,10 @@ function TabContainer(props) {
         }
     }
     return (
-        {getComponentByName(name)} 
+        <div>
+            {getComponentByName(name)}
+        </div>
+        
     )
 }
 export default TabContainer;
