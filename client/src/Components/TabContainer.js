@@ -15,8 +15,6 @@ function TabContainer(props) {
                 return <About isMobileView={isMobileView}/>
             case "Resume":
                 return <Resume isMobileView={isMobileView}/>
-
-
         }
     }
     return (

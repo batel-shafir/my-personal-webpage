@@ -1,7 +1,4 @@
-html, body {
-    height: 100%;
-    background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
-  }
+
 
 .home{
     padding: 0% 20%;
@@ -16,11 +13,7 @@ html, body {
         font-family: din-condensed, sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 75px;
-        span {
-            color: #147c80;
-        }
-        
+        font-size: 75px;   
     }
     .sub-title{
         font-family: din-condensed, sans-serif;
@@ -29,13 +22,11 @@ html, body {
         font-size: 45px;
         .love-icon{
             font-size: 45px;
-            color: #bc0710;
             margin-bottom: 1px;
         }
         .code-icon{
             font-size: 45px;
         }
-
     }
 
     .say-hello-btn{
@@ -60,14 +51,9 @@ html, body {
             color: #9f3cb9;
         }
     }
-    
- 
-
-    
 }
 
 @media (max-width: 768px) {
-
     .home{
         display: block;    
         padding: 0;
@@ -98,10 +84,7 @@ html, body {
             width: 100%;
             margin-top: 20px;
         }      
-    }
- 
-
-   
+    } 
 }
 
 

@@ -1,15 +1,9 @@
 .App {
   text-align: center;
 }
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html, body {
+  height: 100%;
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
 }
 
 .bold{
@@ -20,6 +14,27 @@
 }
 .color-2{
   color:#bc0710;;  
+}
+.color-3{
+  color: #3E51B5;
+}
+
+.color-4{
+  color: #828489;
+}
+
+.font-size-12{
+  font-size: 12px;
+}
+.font-size-14{
+  font-size: 14px;
+}
+.font-size-16{
+  font-size: 14px;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 
