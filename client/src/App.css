@@ -12,15 +12,14 @@
   }
 }
 
-.main-tabs{
- 
+.bold{
+  font-weight: 600;
 }
-
-
-
-@font-face {
-  font-family: 'Anton';
-  src: local('Anton'), url(assets/fonts/Anton/Anton-Regular.ttf) format('truetype');
+.color-1{
+  color: #147c80;  
+}
+.color-2{
+  color:#bc0710;;  
 }
 
 
