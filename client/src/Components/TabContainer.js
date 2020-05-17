@@ -5,24 +5,22 @@ import Resume from './Resume';
 
 
 function TabContainer(props) {
-    const { name, handleChange } = props;
+    const { name, isMobileView } = props;
     
     const getComponentByName = (name) => {
         switch(name){
             case "Home":
-                return <Home handleChange={handleChange}/>
+                return <Home isMobileView={isMobileView}/>
             case "About Me":
-                return <About/>
+                return <About isMobileView={isMobileView}/>
             case "Resume":
-                return <Resume/>
+                return <Resume isMobileView={isMobileView}/>
 
 
         }
     }
     return (
-        <div className={`tab-${name}-container`}>
-           {getComponentByName(name)} 
-        </div>
+        {getComponentByName(name)} 
     )
 }
 export default TabContainer;

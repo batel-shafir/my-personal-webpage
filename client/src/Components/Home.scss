@@ -1,9 +1,6 @@
 html, body {
     height: 100%;
     background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
-
-    font-family: 'Anton', sans-serif;
- 
   }
 
 .home{
@@ -42,20 +39,29 @@ html, body {
     }
 
     .say-hello-btn{
+        margin-bottom: 10px;
         background: #ECE9E6;
     }
+
+    .social-media-icons{
+        .linkedIn-icon{  
+            width: 40px;
+            height: 40px;
+            color: #0e76a8
+        }
+        .facebook-icon{
+            width: 40px;
+            height: 40px;
+            color: #3b5998
+        }
+        .instagram-icon{
+            width: 40px;
+            height: 40px;
+            color: #9f3cb9;
+        }
+    }
     
-    .linkedIn-icon{
-        padding-top: 10px;
-        width: 40px;
-        height: 40px;
-        color: #0e76a8
-    }
-    .facebook-icon{
-        width: 40px;
-        height: 40px;
-        color: #3b5998
-    }
+ 
 
     
 }
@@ -66,41 +72,57 @@ html, body {
         display: block;    
         padding: 0;
         width: 100%; 
-    }
-    .details{ 
-        padding: 0;
-        .main-title{
-            font-family: din-condensed, sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 40px;
-        }
+        .details{ 
+            padding: 0;
+            .main-title{
+                font-family: din-condensed, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+            }
 
-        .sub-title {
-            font-size: 30px;  
-            .love-icon{
-                font-size: 30px;
+            .sub-title {
+                font-size: 30px;  
+                .love-icon{
+                    font-size: 30px;
+                }
+                .code-icon{
+                    font-size: 30px;
+                }
             }
-            .code-icon{
-                font-size: 30px;
+            .say-hello-btn{
+                margin-top: 10px;    
             }
         }
-        .say-hello-btn{
-            margin-top: 10px;    
-        }
+        .main-img{
+            width: 100%;
+            margin-top: 20px;
+        }      
     }
+ 
+
    
 }
 
 
 .main-img{
     border-radius: 50%;
-    width: 33%;
-    display: inline-block;    
-    padding: 2%; 
+    padding: 2%;
 }
 .main-img:hover {
     filter: grayscale(80%);
   }
 
+  @media (min-width: 768px) {  
+    .main-img{
+        width: 40%;
+    }
+}
+
+
+
+  
+  .MuiInput-underline:after {
+    border-bottom: #147c80 !important;
+  }
   

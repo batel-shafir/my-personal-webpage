@@ -34,7 +34,7 @@ function MainTabs(props) {
          </AppBar>
          {TabNames.map((name, index) =>
          <TabPanel value={value} index={index}>
-          <TabContainer name={name}></TabContainer>
+          <TabContainer name={name} isMobileView={isMobileView}></TabContainer>
         </TabPanel>
         )}
        

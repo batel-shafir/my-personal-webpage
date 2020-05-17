@@ -8,11 +8,13 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import axios from 'axios';
 
 
-export default function FormDialog() {
+export default function FormDialog(props) {
   const [open, setOpen] = React.useState(false);
   const [nameValue, setNameValue] = React.useState('');
   const [emailValue, setEmailValue] = React.useState('');
   const [messageValue, setMessageValue] = React.useState('');
+  const {isMobileView} = props;
+
 
   function sendMeEmail (name, email, message){
 
@@ -39,7 +41,7 @@ export default function FormDialog() {
   
   return (
     <div>
-      <Button className="say-hello-btn" variant="outlined" size="small" onClick={handleClickOpen}>
+      <Button className="say-hello-btn" variant="outlined" size={isMobileView? "small" : "medium" } onClick={handleClickOpen}>
         say hello
       </Button>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
