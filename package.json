@@ -1,5 +1,6 @@
 {
   "name": "my-resume",
+  "homepage": "https://batelshafir.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
+    "build": "npm run build --prefix client",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
