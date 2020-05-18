@@ -7,6 +7,9 @@ function Resume(props) {
 
   return (
     <div className="resume-container">
+      <div>
+          <div className="email-address bold color-4">batyusahfir@gmail.com</div>
+      </div>
       <div className="section-header color-3 bold">Professional Experience:</div>
       <div className="font-size-14">
         <span className="color-4 underline">Bizzabo | Frontend developer | 2019-ongoing</span>
