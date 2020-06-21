@@ -6,7 +6,9 @@ import DialogContent from '@material-ui/core/DialogContent';
 import WorkHistoryContent from '../ResumeContent/WorkHistoryContent';
 import EducationContent from '../ResumeContent/EducationContent';
 import MilitaryContent from '../ResumeContent/MilitaryContent';
+import VolunteeringContent from '../ResumeContent/VolunteeringContent';
 
+import CloseIcon from '@material-ui/icons/Close';
 
 
 
@@ -29,7 +31,7 @@ export default function LearnMore(props) {
       case "education":
         return <EducationContent/>
       case "volunteering":
-      return ;
+        return <VolunteeringContent/>
       case "military experience":
         return <MilitaryContent/>
     }
@@ -41,10 +43,12 @@ export default function LearnMore(props) {
         learn more
       </Button>
       <Dialog open={open} onClose={handleClose}>
+        <DialogActions>
+          <CloseIcon className="close-icon" onClick={handleClose}/>
+        </DialogActions>
         <DialogContent>
          {getContentBySection()}
          </DialogContent>
-         <DialogActions/>          
       </Dialog>
     </div>
   );
