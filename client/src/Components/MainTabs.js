@@ -25,7 +25,7 @@ function MainTabs(props) {
           <Tabs value={value} 
                 onChange={handleChange} 
                 scrollButtons="auto"
-                centered={!isMobileView}
+                centered={true}
                 scrollable={isMobileView}
                 indicatorColor='primary' 
                 aria-label="simple tabs example">
