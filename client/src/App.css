@@ -42,18 +42,22 @@ body{
 }
 
 .tab-panel{
-  color: white;
   background-size: cover;
   background-position: top center;
 }
 
 .simple-tab-0{
+  color: white;
   background-image: url(./assets/images/melanie-leduc-nhlfPOVcMTw-unsplash.jpg);
   height: 100vh;
 }
 .simple-tab-1{
-  background-image: url(./assets/images/cool-background-white.png);
+  color: black;
+  background: rgb(225, 225, 226);
+  /*background-image: url(./assets/images/cool-background.svg);*/
   height: 100vh;
+
+
 }
 .simple-tab-2{
   background-image: url(./assets/images/cool-background-white.png);
@@ -63,7 +67,7 @@ body{
 @media (max-width: 768px) {  
   .simple-tab-2{
     background-image: url(./assets/images/cool-background-white.png);
-    background-repeat: repeat-y;
+    background-repeat: repeat;
   }
 }
 

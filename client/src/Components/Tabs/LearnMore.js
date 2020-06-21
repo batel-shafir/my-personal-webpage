@@ -49,6 +49,7 @@ export default function LearnMore(props) {
         <DialogContent>
          {getContentBySection()}
          </DialogContent>
+         <DialogActions/>
       </Dialog>
     </div>
   );

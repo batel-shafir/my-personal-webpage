@@ -18,8 +18,7 @@ function TabContainer(props) {
                 return <About isMobileView={isMobileView}/>
             case "Resume":
                 return <ResumeCardsContainer/>
-
-            }
+        }
     }
     return (
         <div>
