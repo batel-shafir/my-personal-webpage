@@ -1,7 +1,10 @@
 import React from 'react';
-import Home from './Home';
-import About from './About';
-import Resume from './Resume';
+import Home from './Tabs/Home';
+import About from './Tabs/About';
+import ResumeCardsContainer from './Tabs/ResumeCardsContainer';
+import CustomizedTimeline from './Test';
+
+
 
 
 function TabContainer(props) {
@@ -14,8 +17,9 @@ function TabContainer(props) {
             case "About Me":
                 return <About isMobileView={isMobileView}/>
             case "Resume":
-                return <Resume isMobileView={isMobileView}/>
-        }
+                return <ResumeCardsContainer/>
+
+            }
     }
     return (
         <div>

@@ -21,7 +21,7 @@ function MainTabs(props) {
 
     return (
       <div className="main-tabs">
-         <AppBar position="static" color='transparent' style={{ 'background': 'linear-gradient(to left, #FFFFFF, #ECE9E6)' }} className="main-tabs-bar">
+         <AppBar position="static" color='transparent' style={{ 'background': '#10171D', 'color': 'white'}} className="main-tabs-bar">
           <Tabs value={value} 
                 onChange={handleChange} 
                 scrollButtons="auto"

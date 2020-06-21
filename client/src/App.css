@@ -1,19 +1,23 @@
 .App {
   text-align: center;
 }
-html, body {
-  height: 100%;
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(236, 233, 230));
+
+body{
+  background-image: url(./assets/images/cool-background-white.png);
+  background-repeat: repeat-y;
 }
+
 
 .bold{
   font-weight: 600;
 }
 .color-1{
-  color: #147c80;  
+  /*color: #147c80;*/
+ /*color: #D44068;  */
+ color: rgb(84, 185, 185);
 }
 .color-2{
-  color:#bc0710;;  
+  color:indianred;  
 }
 .color-3{
   color: #3E51B5;
@@ -36,6 +40,35 @@ html, body {
 .underline{
   text-decoration: underline;
 }
+
+.tab-panel{
+  color: white;
+  
+  background-size: cover;
+  background-position: top center;
+}
+
+.simple-tab-0{
+  background-image: url(./assets/images/melanie-leduc-nhlfPOVcMTw-unsplash.jpg);
+  height: 100vh;
+}
+.simple-tab-1{
+  background-image: url(./assets/images/cool-background-white.png);
+  height: 100vh;
+}
+.simple-tab-2{
+  background-image: url(./assets/images/cool-background-white.png);
+  height: 100vh;
+}
+
+@media (max-width: 768px) {  
+  .simple-tab-2{
+    background-image: url(./assets/images/cool-background-white.png);
+    background-repeat: repeat-y;
+  }
+}
+
+
 
 
 

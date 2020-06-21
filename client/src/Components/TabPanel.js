@@ -8,7 +8,7 @@ function TabPanel(props) {
 
   return (
     <div
-      className="tab-panel"
+      className={`tab-panel simple-tab-${index}`}
       role="tabpanel"
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}

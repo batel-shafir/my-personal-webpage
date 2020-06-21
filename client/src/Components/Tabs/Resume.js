@@ -1,9 +1,21 @@
 import React from 'react';
 import './Resume.scss'; 
+import { Paper } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
+
+const useStyles = makeStyles((theme) => ({
+  paper: {
+    padding: '6px 16px',
+  },
+  secondaryTail: {
+    backgroundColor: theme.palette.secondary.main,
+  },
+}));
 
 function Resume(props) {
-  const {isMobileView} = props;
+
+
 
   return (
     <div className="resume-container">
