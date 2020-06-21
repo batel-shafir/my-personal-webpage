@@ -52,3 +52,45 @@ export function getEmalogicData(){
         </div>
     )
 }
+
+export function getStandWithUsData(){
+    return(
+        <div>
+            <li>
+                Led the Social Media Team (a total of 5 team members).
+            </li>
+            <li>
+                Organized and Managed the BGU fellowship project’s campaign.
+            </li>
+        </div>
+    )
+}
+
+export function getShnatSherutData(){
+    return(
+        <div>
+            <li>
+                Volunteered in after-school child care facilities in impoverished neighborhoods in the South of Tel Aviv.
+            </li>
+            <li>
+                Guided prisoners in the education center of "Carmel" Prison.
+            </li>
+            <li>
+                Graduated JNF's Guidance Course. 
+            </li>
+        </div>
+    )
+}
+
+export function getSasaData(){
+    return(
+        <div>
+            <li>
+                Planned and Organized daily activities for Sasa's youth (a total of 34 teenagers).
+            </li>
+            <li>
+                Provided emotional response and a sympathetic ear.
+            </li>
+        </div>
+    )
+}
