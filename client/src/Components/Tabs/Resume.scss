@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .card-btn{
@@ -37,9 +38,17 @@
     text-align: center;
 }
 
+.card-close-btn{
+    float: right;
+    .close-icon{
+        font-size: 15px;
+    }
+}
+
 .learn-more-btn{
     color:rgb(84, 185, 185) !important;
     border: 1px solid rgb(84, 185, 185) !important;
+    margin-bottom: 20px !important;
 }
 
 

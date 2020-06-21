@@ -79,7 +79,7 @@ export default function ResumeCard(props) {
             {section}
           </Typography>
         </CardContent>
-        <CardActions class='card-btn'>
+        <CardActions className='card-btn'>
           <LearnMore 
             className="say-hello-dialog-btn" 
             open={showModal} 
