@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url(./assets/images/cool-background-white.png);
+  background-image: url(./assets/images/cool-background-white-compressor.png);
   background-repeat: repeat-y;
 }
 
@@ -48,24 +48,29 @@ body{
 
 .simple-tab-0{
   color: white;
-  background-image: url(./assets/images/melanie-leduc-nhlfPOVcMTw-unsplash.jpg);
+  background-image: url(./assets/images/melanie-leduc-nhlfPOVcMTw-unsplash-compressor.jpg);
   height: 100vh;
 }
 .simple-tab-1{
   color: black;
-  background-image: url(./assets/images/cool-background-white.png);
+  background-image: url(./assets/images/cool-background-white-compressor.png);
   height: 100vh;
 
 
 }
 .simple-tab-2{
-  background-image: url(./assets/images/cool-background-white.png);
+  background-image: url(./assets/images/cool-background-white-compressor.png);
+  height: 100vh;
+}
+
+.simple-tab-3{
+  background-image: url(./assets/images/cool-background-white-compressor.png);
   height: 100vh;
 }
 
 @media (max-width: 768px) {  
   .simple-tab-2{
-    background-image: url(./assets/images/cool-background-white.png);
+    background-image: url(./assets/images/cool-background-white-compressor.png);
     background-repeat: repeat;
   }
 }
