@@ -5,11 +5,10 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import ProfessionalExperience from '../../assets/images/job.png';
 import Education from '../../assets/images/school.jpg';
 import Volunteering from '../../assets/images/heart.png';
-import Military from '../../assets/images/army.jpg'
+import Military from '../../assets/images/army-compressor.jpg';
 
 import './Resume.scss'; 
 

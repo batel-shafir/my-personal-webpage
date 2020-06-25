@@ -15,7 +15,7 @@ function Home(props) {
     return (
         <div className="home">
             <div className="details">
-                <div className="main-title">Hello, I'm <span className="color-1">Batel Shafir</span>.</div>
+                <div className="main-title">Hello, I'm <span className="color-1">Batel</span>.</div>
                 <div className="sub-title">I'm a frontend web developer.</div>
                 <div className="sub-title">I <FavoriteIcon className="love-icon color-2 animated bounce"/> <CodeSharpIcon className="code-icon"/>.</div>
                 <div className="social-media-icons">
