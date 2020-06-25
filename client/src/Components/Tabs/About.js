@@ -4,14 +4,6 @@ import './About.scss';
 import Radio from '@material-ui/core/Radio';
 
 
-/*<div>
-            My name is Batel Shafir and I'm a Frontend developer,based in Tel Aviv, IL.
-          </div>
-          <div> I'm highly motivated, hardworking & creative. </div>
-          <div> I have excellent interpersonal skills & high emotional intelligence .</div>
-          <div> I have serious passion for UI and web development. </div>
-          <div> "God is in the details" is my motto. This helps me to perform well as a Frontend Developer and basically in everything I do. </div>
-         */
 
 function About(props) {
   const [selectedValue, setSelectedValue] = useState('a')
