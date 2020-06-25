@@ -9,7 +9,6 @@ import CodeSharpIcon from '@material-ui/icons/CodeSharp';
 
 
 function Home(props) {
-    const [showModal, setShowModal] = React.useState(false);
     const {isMobileView} = props;
 
     return (
